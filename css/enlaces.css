@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*fondo*/
+body{
+	background: rgba(75,232,219,1);
+}
+
+/*div q encierra a la galeria de images*/
+.link-blog{
+	margin: 1em;
+}
+/*div q encierra al img y span*/
+.images{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-weight: 700;
+	color: white;
+	padding: 30px;
+	margin: 30px;
+	background-color: blue;
+	opacity: 80%;
+}
+
+img{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+/*texto*/
+span{
+	padding: 15px;
+	width: 	100%;
+	background-color: white;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+span:hover{
+
+}
+/*al pasar el mouse*/
+a:hover{
+	text-decoration: none;
+	color: #880FE5;
+	font-size: 1.3em;
+}
